@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import CateringComponent from "./CateringComponent";
 import VideoComponent from "./Video";
+import Footer from "./footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Video" element={<VideoComponent />} />
         {/* Add more routes as needed */}
       </Routes>
+      <Footer />
     </Router>
   );
 }
