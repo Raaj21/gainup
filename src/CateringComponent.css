@@ -28,7 +28,7 @@
 
 .block div {
   position: absolute;
-  bottom: 1rem;
+  top: 13rem;  
   left: 1rem;
   color: #fff;
   font-size: clamp(12px, 5cqw, 32px);

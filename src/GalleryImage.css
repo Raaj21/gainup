@@ -1,0 +1,173 @@
+@import url(https://use.fontawesome.com/releases/v5.0.10/css/all.css);
+@import url('https://fonts.googleapis.com/css?family=Raleway:600');
+
+h1 {
+  margin-top: 40px;
+  text-align: center;
+  font-family: Raleway;
+  color: #222;
+  font-weight: 600;
+  font-size: 40px;
+  animation-duration: 1.5s;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+}
+
+a.photoLink {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  background: #000000;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  border-radius: .5rem;
+}
+
+div.item * {
+  box-sizing: border-box;
+  transition: all .2s ease-in-out; 
+  height: 100px;
+  width: 100px;
+}
+
+div.item {
+  vertical-align: top;
+  height: 210px;
+  width: 100%;
+}
+
+div.item i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  font-size: 34px;
+  color: #000000;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background: #ffffff;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform .5s 0 ease;
+}
+
+div.item a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+div.item.blue {
+  background-color: #34495e;
+}
+div.item.blue i {
+  color: #34495e;
+}
+div.item.red {
+  background-color: #ff0000;
+}
+div.item.red i {
+  color: #e74c3c;
+}
+
+div.item:hover i {
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform .3s .1s cubic-bezier(.37,1.05,.5,1.21);
+}
+
+#item1{
+  background: url("https://gainup.in/wp-content/uploads/2021/01/yarn-img.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+#item2{
+  background: url("https://gainup.in/wp-content/uploads/2021/01/socks-img.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+#item3{
+  background: url("https://gainup.in/wp-content/uploads/2021/01/garment-img.jpg") center center no-repeat;
+  background-size: cover;
+}
+#item4{
+  background: url("https://gainup.in/wp-content/uploads/2021/01/gloves-img.jpg") center center no-repeat;
+  background-size: cover;
+}
+div.color:hover {
+  opacity: 1 !important;
+}
+
+div.color.green {
+  width:100%;
+  height: 100%;
+  opacity: 0;
+  background-color: #16a08577;
+}
+
+div.color.green i {
+  color: #16a085;
+}
+
+div.color.blue {
+  width:100%;
+  height: 100%;
+  opacity: 0;
+  background-color: #0c67f977;
+}
+
+div.color.blue i {
+  color: #0c67f9;
+}
+
+div.color.red {
+  width:100%;
+  height: 100%;
+  opacity: 0;
+  background-color: #f90c0c77;
+}
+
+div.color.red i {
+  color: #f90c0c;
+}
+div.color.grey {
+  width:100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(128, 128, 128, 0.355)
+}
+
+div.color.grey i {
+  color: grey;
+}
+.container-fluid {
+  animation: 1.5s up;
+}
+
+@keyframes up {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 769px) {
+  .container-fluid {
+    flex-wrap: wrap;
+  }
+  a.photoLink {
+    width: 48%; /* Two columns, leaving some space for margins */
+    margin: 1%; /* Add some margin between items */
+  }
+}

@@ -7,7 +7,7 @@ function TwoColumnLayout() {
             <div className="column">
                 <div className="box">
                     <h2>Our Group</h2>
-                    <p>Highly experienced management team, reinforced with strong technical team lead by experts in each division with experience of more than 15 years in manufacturing, has established global standard of manufacturing operations and quality standard. Gainup following LEAN manufacturing system in production and it has implemented 5S quality system in all division.</p>  
+                    <p>Highly experienced management team, reinforced with strong technical team lead by experts in each division with experience of more than 15 years in manufacturing, hasquality standard. Gainup following LEAN manufacturing system in production and it has implemented 5S quality system in all division.</p>  
                     <button className='example_d'>Read more</button>
                 </div>
             </div>

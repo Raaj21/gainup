@@ -3,18 +3,13 @@
 import React from 'react';
 import './CateringComponent.css'; // Import the CSS file
 import TwoColumnLayout from './TwoColumnLayout';
+import OurProduct from  './Ourproduct';
+import GalleryImage from './GalleryImage'
 
 class CateringComponent extends React.Component {
   render() {
     return (
-    //   <div className="cater3-movingBG">
-    //     <div className="flyinTxtCont">
-    //       <div className="flyIn lineOne">Fiestas</div>
-    //       <div className="flyIn lineTwo">Without </div>
-    //       <div className="flyIn lineThree">the fuss</div>
-    //       <div className="flyIn lineFour">Catering. Delivered. Set up. Delicious.</div>
-    //     </div>
-    //   </div>
+
     <>
     <div class="blocks">
   <div class="block">
@@ -45,6 +40,8 @@ class CateringComponent extends React.Component {
   </div>
 </div>
 <TwoColumnLayout/>
+<OurProduct/>
+<GalleryImage/>
     </>
     );
   }
