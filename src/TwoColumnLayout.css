@@ -1,4 +1,4 @@
-.container {
+.container-fuild {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -40,7 +40,7 @@
     }
     .example_d:hover {
     color: #494949 !important;
-    border-radius: 50px;
+    
     border-color: #494949 !important;
     transition: all 0.3s ease 0s;
     }

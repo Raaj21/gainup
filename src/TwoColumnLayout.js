@@ -3,7 +3,7 @@ import './TwoColumnLayout.css'; // You can create this CSS file to style your co
 
 function TwoColumnLayout() {
     return (
-        <div className="container">
+        <div className="container-fuild">
             <div className="column">
                 <div className="box">
                     <h2>Our Group</h2>
