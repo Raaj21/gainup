@@ -1,0 +1,36 @@
+.contact-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    margin: 30px;
+    background-color: antiquewhite;
+  }
+  .mail{
+    color: white;
+  }
+
+  .map{
+    margin: 25px;
+  }
+  
+  .address{
+    margin: 25px;
+    color: white;
+  }
+
+  .contact-box h4 {
+    margin-top: 0;
+  }
+  
+  .contact-info {
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 767px) {
+    .col-sm-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
