@@ -33,12 +33,12 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/our-group" className={location.pathname === '/our-group' ? 'active' : ''} onClick={handleClick}>
+              <Link to="/ContentWithBackground" className={location.pathname === '/our-group' ? 'active' : ''} onClick={handleClick}>
                 Our Group
               </Link>
             </li>
             <li>
-              <Link to="/products" className={location.pathname === '/products' ? 'active' : ''} onClick={handleClick}>
+              <Link to="/ContentWithBackground" className={location.pathname === '/products' ? 'active' : ''} onClick={handleClick}>
                 Products
               </Link>
             </li>
@@ -48,17 +48,17 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/accolades" className={location.pathname === '/accolades' ? 'active' : ''} onClick={handleClick}>
+              <Link to="/ContentWithBackground" className={location.pathname === '/accolades' ? 'active' : ''} onClick={handleClick}>
                 Accolades
               </Link>
             </li>
             <li>
-              <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''} onClick={handleClick}>
+              <Link to="/ContentWithBackground" className={location.pathname === '/contact' ? 'active' : ''} onClick={handleClick}>
                 Contact Us
               </Link>
             </li>
             <li>
-              <Link to="/career" className={location.pathname === '/career' ? 'active' : ''} onClick={handleClick}>
+              <Link to="/ContentWithBackground" className={location.pathname === '/career' ? 'active' : ''} onClick={handleClick}>
                 Career
               </Link>
             </li>

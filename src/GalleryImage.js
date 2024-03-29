@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom'; // Import Link and useNavigate from react-router-dom
 import './GalleryImage.css'; // Import the CSS file containing the styles
+import Yarn from './Yarn';
 
 const GalleryImage = () => {
+  const navigate=useNavigate();
 
 
   return (
     <div className="container-fluid">
-      <Link to="/item1" className="photoLink" >
+      <Link to="/Yarn" className="photoLink" >
         <div id="item1" className="item red">
           <div className="color red">
             <i className="fab fa-yarn"></i>

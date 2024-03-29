@@ -1,10 +1,18 @@
 body {
   background: white;
 }
+.content {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* Add any other styling for your content */
+}
 .cater3-movingBG {
     height: 100%;
-    background-image: url(http://salsaritas.johngroupinteractive.com/wp-content/uploads/2017/06/enchilada-bg.jpg);
-    background-size: 125%;
+    width: 100%;
+    background-image: url(https://gainup.in/wp-content/uploads/2020/12/img12.jpg);
+    background-size: 107%;
     background-repeat: repeat-x;
     animation: animatedBackground 15s linear alternate infinite;
 }
@@ -19,7 +27,7 @@ body {
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -34,11 +42,12 @@ body {
       margin-left: 2em;
 }
 .flyIn {
-    color:#fff;
+    color:white;
     font-family:'Raleway';
     text-transform:uppercase;
     line-height:1.2em;
     position:relative;
+   
   text-shadow: 2px 2px 40px rgba(0,0,0,0.7);
 }
 .lineOne {
@@ -48,16 +57,21 @@ body {
 }
 .lineTwo {
     transition-delay:.4s; 
+    font-size:20px;
     transition:.6s ease in;
     animation: txtFlyIn .6s linear;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 .lineThree {
     transition-delay:.6s; 
+    font-size:10px;
     transition:.8s ease in;
     animation: txtFlyIn .9s linear;
 }
 .lineOne, .lineTwo, .lineThree {
-    font-size:110px;
+   
     font-weight: bold;
     letter-spacing: 3px;
   }
@@ -70,8 +84,8 @@ body {
     display:inline-block;
     color:#000;
     box-size:border-box;
-    max-width:63%;
-    max-width: 22em;
+    max-width:30%;
+    max-width: 13em;
     font-size: 32px;
     padding: .2em .5em;
     margin-top: 30px;

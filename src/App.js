@@ -8,8 +8,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import CateringComponent from "./CateringComponent";
 import VideoComponent from "./Video";
 import Footer from "./footer";
-import Yarn from "./Yarn";
-import ContactUs from "./Contact";
+import Yarn from './Yarn';
+import ContentWithBackground from "./ContentWithBackground";
 
 function App() {
   return (
@@ -18,8 +18,9 @@ function App() {
       <Routes>
         <Route path="/" element={<CateringComponent />} />
         <Route path="/Video" element={<VideoComponent />} />
-        <Route path="/item1" element={<Yarn />} />
-        <Route exact path="/Contact" element={<ContactUs />} />
+        <Route path="/Yarn"  element={<Yarn/>}/>
+        <Route path="/ContentWithBackground"  element={<ContentWithBackground/>}/>
+
         {/* Add more routes as needed */}
       </Routes>
       <Footer />

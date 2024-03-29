@@ -12,10 +12,12 @@
   color: #fff;
   background-color: #f60838;
 }
-
+.CateringComponent {
+  margin-top: 3rem; /* Adjust margin-top for the CateringComponent as needed */
+}
 .Footer {
   padding: 2rem 0;
-  margin-top: 22rem;
+ margin-top: 10rem; 
   background-color: rgba(0, 0, 0, 0.2); /* Black color with 20% opacity */
   background: rgba(0, 148, 217, 0.2);
   color: black;
