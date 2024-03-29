@@ -10,6 +10,7 @@ import VideoComponent from "./Video";
 import Footer from "./footer";
 import Yarn from './Yarn';
 import ContentWithBackground from "./ContentWithBackground";
+import ContactUs from "./Contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Video" element={<VideoComponent />} />
         <Route path="/Yarn"  element={<Yarn/>}/>
         <Route path="/ContentWithBackground"  element={<ContentWithBackground/>}/>
+        <Route exact path="/Contact" element={<ContactUs />} />
 
         {/* Add more routes as needed */}
       </Routes>

@@ -53,7 +53,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/ContentWithBackground" className={location.pathname === '/contact' ? 'active' : ''} onClick={handleClick}>
+              <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''} onClick={handleClick}>
                 Contact Us
               </Link>
             </li>
