@@ -1,5 +1,5 @@
-import React from 'react';
-import styled, { keyframes } from 'styled-components';
+import React from "react";
+import styled, { keyframes } from "styled-components";
 
 const bounceyLine = keyframes`
   0% {
@@ -52,10 +52,10 @@ const YourComponent = () => {
   return (
     <Root>
       <Container>
-        <Title className="underline underline--bounce">FlatSteve</Title>
+        <Title className="underline underline--bounce">Our Products</Title>
       </Container>
     </Root>
   );
-}
+};
 
 export default YourComponent;
