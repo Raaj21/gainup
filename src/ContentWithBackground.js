@@ -4,7 +4,7 @@ import './ContentWithBackground.css'; // Import CSS file for styling
 const ContentWithBackground = () => {
   return (
     <div className="content-container">
-      <div className="background-image"></div>
+      <div className="background-imag"></div>
       <div className="content">
       <img
         loading="lazy"

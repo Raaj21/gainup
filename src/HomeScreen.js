@@ -22,7 +22,7 @@ const HomeScreen = () => {
       <div className="content">
         {/* Your content goes here */}
         
-        <h1>Take care of employees who are taking care of our business!</h1>
+        <div>Take care of employees who are taking care of our business!</div>
      
       </div>
       <div className="content">   <p>One of the biggest socks manufacturers in India capable of knitting Socks for Men, Women, Children in variety of needle counts and styling..</p></div>

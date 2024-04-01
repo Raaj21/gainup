@@ -25,7 +25,7 @@ class CateringComponent extends React.Component {
   <div class="block">
     <a href="#link">
       <div className='conr'>Socks Division</div>
-      <img src="https://cpimg.tistatic.com//106315/6/template_photo_1.jpg" alt="" />
+      <img src="https://ttbazaar.com/cdn/shop/collections/men_s_socks_long_large@3x.jpg?v=1648917805" alt="" />
     </a>
   </div>
   <div class="block">

@@ -6,6 +6,8 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
+  font-size: 32px;
+  color: white;
   /* Add any other styling for your content */
 }
 .cater3-movingBG {
@@ -97,4 +99,29 @@ body {
 @keyframes txtFlyIn{
     0% { transform:translateX(-100%); }
     100% { transform:translateX(0%); }
+}
+/* Common styles */
+
+
+/* Add styles for mobile view */
+@media screen and (max-width: 767px) {
+  .flyinTxtCont {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center horizontally */
+    padding-bottom: 20px; /* Adjust spacing */
+  }
+
+  .content-container {
+    text-align: center; /* Center content */
+    font-size: 12px;
+    color: white;
+  }
+  .content{
+    font-size: 12px;
+    padding: 0px;
+  }
+  .vc_single_image-img{
+    height: 100%;
+  }
 }
